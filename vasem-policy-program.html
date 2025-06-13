@@ -93,23 +93,106 @@
       <p>This program explores the intersection of science, engineering, and technology with public policy. As a VASEM Undergraduate Policy Fellow, I applied technical insights to real-world governance challenges and engaged with state-level decision-makers.</p>
     </section>
 
-    <section class="card">
-      <h2>Key Responsibilities</h2>
-      <ul>
-        <li><i class="fas fa-gavel icon"></i>Analyzed case studies on AI adoption, coastal resilience, energy systems, and health equity to evaluate impacts on Virginia’s legislative frameworks.</li>
-        <li><i class="fas fa-comments icon"></i>Engaged with members of the General Assembly, JCOTS, and executive agencies to discuss policy development rooted in scientific evidence.</li>
-        <li><i class="fas fa-university icon"></i>Shadowed COVES graduate fellows and observed science-informed policy implementation in real government contexts.</li>
-        <li><i class="fas fa-pencil-alt icon"></i>Developed policy briefs and oral presentations to communicate complex STEM topics to non-technical stakeholders.</li>
-        <li><i class="fas fa-balance-scale icon"></i>Assisted McGuireWoods attorneys with legal research, drafting memos, and summarizing case law relevant to regulatory compliance and policy advising.</li>
-<li><i class="fas fa-gavel icon"></i>Investigated Virginia’s growing energy demands due to data centers and the implications for AI infrastructure sustainability and regulation.</li>
-<li><i class="fas fa-gavel icon"></i>Studied ethical decision-making in science and technology policy, emphasizing cybersecurity risk management and responsible AI development.</li>
-<li><i class="fas fa-gavel icon"></i>Participated in interdisciplinary workshops bridging STEM, ethics, and public policy to address real-world challenges in digital governance.</li>
-<li><i class="fas fa-gavel icon"></i>Engaged directly with Virginia General Assembly delegates and JCOTS officials to understand the policymaking process in science and technology domains.</li>
-<li><i class="fas fa-gavel icon"></i>Contributed to roundtable discussions on preparing Virginians for the workforce impact of AI and enhancing the state’s digital resilience.</li>
-<li><i class="fas fa-gavel icon"></i>Engaged in in-depth policy training focused on ethics, public values, and decision-making within science and technology governance.</li>
-<li><i class="fas fa-gavel icon"></i>Explored real-world case studies on AI integration, health disparities, coastal resilience, and Virginia’s growing data center energy needs.</li>
-<li><i class="fas fa-gavel icon"></i>Analyzed how engineering and emerging technologies inform legislative decisions, particularly in state-level policymaking.</li>
-<li><i class="fas fa-gavel icon"></i>Investigated how to adapt public policy frameworks to support ethical and inclusive AI deployment for Virginia citizens.</li>
+    <h2>Key Responsibilities</h2>
+<div class="accordion-container">
+  <button class="accordion">AI & Emerging Tech Policy <span class="icon">▼</span></button>
+  <div class="panel">
+    <ul>
+      <li>Analyzed case studies on AI adoption, energy systems, and health equity.</li>
+      <li>Investigated Virginia’s growing energy demands due to data centers and implications for AI infrastructure.</li>
+      <li>Studied ethical decision-making in science and tech policy with a focus on responsible AI.</li>
+      <li>Explored how to adapt policy frameworks to support inclusive AI deployment.</li>
+    </ul>
+  </div>
+
+  <button class="accordion">Government Engagement & Legislative Insight <span class="icon">▼</span></button>
+  <div class="panel">
+    <ul>
+      <li>Engaged with General Assembly, JCOTS, and executive agencies on science-informed policymaking.</li>
+      <li>Shadowed COVES fellows at state agencies and nonprofits to observe real-time policy implementation.</li>
+      <li>Participated in roundtable discussions on preparing Virginia’s workforce for AI impact.</li>
+    </ul>
+  </div>
+
+  <button class="accordion">Communication & Research <span class="icon">▼</span></button>
+  <div class="panel">
+    <ul>
+      <li>Developed policy briefs and delivered oral presentations for non-technical audiences.</li>
+      <li>Assisted McGuireWoods attorneys with legal research and regulatory memos.</li>
+      <li>Analyzed how engineering and tech inform legislative decisions, especially at the state level.</li>
+    </ul>
+  </div>
+
+  <button class="accordion">Workshops & Simulations <span class="icon">▼</span></button>
+  <div class="panel">
+    <ul>
+      <li>Participated in interdisciplinary workshops combining STEM, ethics, and public policy.</li>
+      <li>Engaged in in-depth training on public values, ethical governance, and policymaking.</li>
+    </ul>
+  </div>
+</div>
+
+<style>
+  .accordion-container {
+    background-color: #d6c6e1;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .accordion {
+    background-color: #b49dce;
+    color: white;
+    cursor: pointer;
+    padding: 12px;
+    width: 100%;
+    text-align: left;
+    outline: none;
+    border: none;
+    font-size: 1rem;
+    transition: 0.3s ease;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+
+  .active, .accordion:hover {
+    background-color: #9b86bc;
+  }
+
+  .accordion .icon {
+    float: right;
+    font-weight: bold;
+    transition: transform 0.3s ease;
+  }
+
+  .accordion.active .icon {
+    transform: rotate(180deg);
+  }
+
+  .panel {
+    padding: 0 18px;
+    background-color: #e9ddf3;
+    display: none;
+    overflow: hidden;
+  }
+
+  ul {
+    padding-left: 1rem;
+  }
+
+  li {
+    padding: 5px 0;
+  }
+</style>
+
+<script>
+  const acc = document.querySelectorAll(".accordion");
+  acc.forEach(button => {
+    button.addEventListener("click", function () {
+      this.classList.toggle("active");
+      const panel = this.nextElementSibling;
+      panel.style.display = panel.style.display === "block" ? "none" : "block";
+    });
+  });
+</script>
 
       </ul>
     </section>
