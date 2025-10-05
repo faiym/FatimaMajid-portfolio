@@ -16,7 +16,1725 @@
         "placeholder": "New generic diagram description",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "version": "2.5.0",
-        "cells": []
+        "cells": [
+          {
+            "position": {
+              "x": -830.0000000000025,
+              "y": -479.9999999999979
+            },
+            "size": {
+              "width": 750,
+              "height": 720
+            },
+            "attrs": {
+              "label": {
+                "text": "UTM Cloud / U-Space Services (Trusted Domain)\n"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "8760775a-1b11-43a6-80fc-4cbdc8c5c822",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "UTM Cloud / U-Space Services (Trusted Domain)\n",
+              "description": "",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": -1140,
+              "y": -384.9999999999997
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Airspace Manager"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "5482aa36-f781-46f3-b381-35e706a63af7"
+                },
+                {
+                  "group": "right",
+                  "id": "3a4f3d2c-af18-4b70-ae32-ad81579253a3"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9f45e931-ea6e-4aa3-b0a7-c034bf979fc5"
+                },
+                {
+                  "group": "left",
+                  "id": "e81c6743-fead-4c7d-a462-3c56c0cd1f43"
+                }
+              ]
+            },
+            "id": "134a11df-a4d5-4fc8-9857-867d341c09db",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Airspace Manager",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -1140,
+              "y": 80.00000000000011
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Drone Operator"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "5482aa36-f781-46f3-b381-35e706a63af7"
+                },
+                {
+                  "group": "right",
+                  "id": "3a4f3d2c-af18-4b70-ae32-ad81579253a3"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9f45e931-ea6e-4aa3-b0a7-c034bf979fc5"
+                },
+                {
+                  "group": "left",
+                  "id": "e81c6743-fead-4c7d-a462-3c56c0cd1f43"
+                }
+              ]
+            },
+            "id": "63b89f32-c265-4b1a-b7e1-e06610f2e36b",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Drone Operator",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -1140,
+              "y": -153
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Manufacturer"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "5482aa36-f781-46f3-b381-35e706a63af7"
+                },
+                {
+                  "group": "right",
+                  "id": "3a4f3d2c-af18-4b70-ae32-ad81579253a3"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9f45e931-ea6e-4aa3-b0a7-c034bf979fc5"
+                },
+                {
+                  "group": "left",
+                  "id": "e81c6743-fead-4c7d-a462-3c56c0cd1f43"
+                }
+              ]
+            },
+            "id": "5962e2b7-5cdd-4cfd-8526-693e40201279",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Manufacturer",
+              "description": "",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -670,
+              "y": -157.99999999999994
+            },
+            "size": {
+              "width": 120,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Registration & Identity Verification"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "87c87e5e-f27e-4297-a2ed-c3c623fc30bf"
+                },
+                {
+                  "group": "right",
+                  "id": "35ea9726-271d-4612-ae3d-3b57edb3a8dc"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4b63a874-3505-4d17-89c6-7aff1acc2fc0"
+                },
+                {
+                  "group": "left",
+                  "id": "c2820ad8-07f4-45eb-b68a-bd6ea5717b9e"
+                }
+              ]
+            },
+            "id": "23ddb04c-8e1c-47a3-a114-05ecdda52c26",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Process",
+              "name": "Registration & Identity Verification",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -800,
+              "y": -440
+            },
+            "size": {
+              "width": 390,
+              "height": 170
+            },
+            "attrs": {
+              "text": {
+                "text": "Pre-authorization / Risk Assessment"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "87c87e5e-f27e-4297-a2ed-c3c623fc30bf"
+                },
+                {
+                  "group": "right",
+                  "id": "35ea9726-271d-4612-ae3d-3b57edb3a8dc"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4b63a874-3505-4d17-89c6-7aff1acc2fc0"
+                },
+                {
+                  "group": "left",
+                  "id": "c2820ad8-07f4-45eb-b68a-bd6ea5717b9e"
+                }
+              ]
+            },
+            "id": "d6157ebd-ac55-4b45-8503-fc8bb0c2e9ef",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Process",
+              "name": "Pre-authorization / Risk Assessment",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -655,
+              "y": 80.00000000000011
+            },
+            "size": {
+              "width": 210,
+              "height": 90
+            },
+            "attrs": {
+              "text": {
+                "text": "Flight Plan Submission"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "87c87e5e-f27e-4297-a2ed-c3c623fc30bf"
+                },
+                {
+                  "group": "right",
+                  "id": "35ea9726-271d-4612-ae3d-3b57edb3a8dc"
+                },
+                {
+                  "group": "bottom",
+                  "id": "4b63a874-3505-4d17-89c6-7aff1acc2fc0"
+                },
+                {
+                  "group": "left",
+                  "id": "c2820ad8-07f4-45eb-b68a-bd6ea5717b9e"
+                }
+              ]
+            },
+            "id": "7fd6b845-8062-46ce-ae6c-95312bef30ba",
+            "zIndex": 7,
+            "data": {
+              "type": "tm.Process",
+              "name": "Flight Plan Submission",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": false,
+              "isWebApplication": false,
+              "privilegeLevel": "",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -210,
+              "y": -310
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Pilot Registry DB"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "174f8f53-978a-44e7-ae97-b2169c2b1c1d"
+                },
+                {
+                  "group": "right",
+                  "id": "d756700b-8b46-404f-90b5-dad4cf3a7159"
+                },
+                {
+                  "group": "bottom",
+                  "id": "aa977ce1-b8b7-4869-919a-2401b8163352"
+                },
+                {
+                  "group": "left",
+                  "id": "1971039e-5744-43a8-b64a-4106824a4b47"
+                }
+              ]
+            },
+            "id": "7c9a0cc5-b7c5-49f2-8023-7b1bfe29d00f",
+            "zIndex": 8,
+            "data": {
+              "type": "tm.Store",
+              "name": "Pilot Registry DB",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -210,
+              "y": -180
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Flight Plans DB"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "174f8f53-978a-44e7-ae97-b2169c2b1c1d"
+                },
+                {
+                  "group": "right",
+                  "id": "d756700b-8b46-404f-90b5-dad4cf3a7159"
+                },
+                {
+                  "group": "bottom",
+                  "id": "aa977ce1-b8b7-4869-919a-2401b8163352"
+                },
+                {
+                  "group": "left",
+                  "id": "1971039e-5744-43a8-b64a-4106824a4b47"
+                }
+              ]
+            },
+            "id": "9510f105-5bbb-4137-a616-7436e0dd5d74",
+            "zIndex": 9,
+            "data": {
+              "type": "tm.Store",
+              "name": "Flight Plans DB",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": -210,
+              "y": -30
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Regulatory Policies"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "174f8f53-978a-44e7-ae97-b2169c2b1c1d"
+                },
+                {
+                  "group": "right",
+                  "id": "d756700b-8b46-404f-90b5-dad4cf3a7159"
+                },
+                {
+                  "group": "bottom",
+                  "id": "aa977ce1-b8b7-4869-919a-2401b8163352"
+                },
+                {
+                  "group": "left",
+                  "id": "1971039e-5744-43a8-b64a-4106824a4b47"
+                }
+              ]
+            },
+            "id": "29fe22b8-fcd9-441c-9fe6-7a06e1938f39",
+            "zIndex": 10,
+            "data": {
+              "type": "tm.Store",
+              "name": "Regulatory Policies",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": false,
+              "isSigned": false,
+              "storesCredentials": false,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "approved plan",
+              "description": "",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "approved plan"
+            ],
+            "id": "7dc54e93-3033-4b73-ab72-46162c1cbfb0",
+            "source": {
+              "x": -517,
+              "y": -348
+            },
+            "target": {
+              "cell": "9510f105-5bbb-4137-a616-7436e0dd5d74",
+              "port": "1971039e-5744-43a8-b64a-4106824a4b47"
+            },
+            "vertices": [
+              {
+                "x": -430,
+                "y": -310
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": " (pilot info, license docs)",
+              "description": "Entry point #1 — account creation / validation request",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              " (pilot info, license docs)"
+            ],
+            "id": "0d990fcb-1b8a-476d-b5dd-669c13d0eec4",
+            "source": {
+              "x": -1027,
+              "y": 110
+            },
+            "target": {
+              "cell": "23ddb04c-8e1c-47a3-a114-05ecdda52c26",
+              "port": "4b63a874-3505-4d17-89c6-7aff1acc2fc0"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Identity certificate / manufacturer data",
+              "description": "Cross-verify pilot aircraft & ID",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Identity certificate / manufacturer data"
+            ],
+            "id": "92f0af54-3efa-402c-8c8c-efa12a7a1751",
+            "source": {
+              "x": -1027,
+              "y": -128
+            },
+            "target": {
+              "cell": "23ddb04c-8e1c-47a3-a114-05ecdda52c26",
+              "port": "87c87e5e-f27e-4297-a2ed-c3c623fc30bf"
+            },
+            "vertices": [
+              {
+                "x": -830,
+                "y": -128
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "waypoints, altitude, ETA",
+              "description": "Entry point #2 — flight intent submission",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "waypoints, altitude, ETA"
+            ],
+            "id": "4f6b9110-ac02-4701-b034-33879b92bfb0",
+            "source": {
+              "x": -1027,
+              "y": 110
+            },
+            "target": {
+              "cell": "7fd6b845-8062-46ce-ae6c-95312bef30ba",
+              "port": "4b63a874-3505-4d17-89c6-7aff1acc2fc0"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Publish updated regulations / airspace restrictions",
+              "description": "Entry point #3 — upstream regulatory data feed",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Publish updated regulations / airspace restrictions"
+            ],
+            "id": "f3ea43c4-4019-4ab5-a331-635bbe36f56e",
+            "source": {
+              "x": -1027,
+              "y": -370
+            },
+            "target": {
+              "cell": "29fe22b8-fcd9-441c-9fe6-7a06e1938f39",
+              "port": "1971039e-5744-43a8-b64a-4106824a4b47"
+            },
+            "vertices": [
+              {
+                "x": -580,
+                "y": -190
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Verified pilot_id toke",
+              "description": "Passes identity reference for risk checks",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Verified pilot_id toke"
+            ],
+            "id": "0f603c1b-787e-4623-bf12-ffdafd8300f4",
+            "source": {
+              "x": -565,
+              "y": -109
+            },
+            "target": {
+              "cell": "d6157ebd-ac55-4b45-8503-fc8bb0c2e9ef",
+              "port": "4b63a874-3505-4d17-89c6-7aff1acc2fc0"
+            },
+            "vertices": [
+              {
+                "x": -490,
+                "y": -270
+              },
+              {
+                "x": -490,
+                "y": -280
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Flight plan JSON (waypoints, area, time)",
+              "description": "Input for risk & airspace evaluation",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Flight plan JSON (waypoints, area, time)"
+            ],
+            "id": "d2bc5bd1-5237-41a7-bc25-c64f05efafdf",
+            "source": {
+              "x": -507,
+              "y": 140
+            },
+            "target": {
+              "x": -670,
+              "y": -350
+            },
+            "vertices": [
+              {
+                "x": -430,
+                "y": 240
+              },
+              {
+                "x": -640,
+                "y": 70
+              },
+              {
+                "x": -670,
+                "y": 70
+              },
+              {
+                "x": -720,
+                "y": -30
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "store pilot record (PII, certs)",
+              "description": "Save verified identity",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "store pilot record (PII, certs)"
+            ],
+            "id": "8a4ff49a-f522-43f8-b6f8-3ecb72446beb",
+            "source": {
+              "x": -565,
+              "y": -93
+            },
+            "target": {
+              "cell": "7c9a0cc5-b7c5-49f2-8023-7b1bfe29d00f",
+              "port": "1971039e-5744-43a8-b64a-4106824a4b47"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "read pilot credentials (pilot_id)",
+              "description": "Validate operator before approval",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "read pilot credentials (pilot_id)"
+            ],
+            "id": "22164700-2116-475b-9971-b953df3f7e9d",
+            "source": {
+              "x": -540,
+              "y": -410
+            },
+            "target": {
+              "cell": "7c9a0cc5-b7c5-49f2-8023-7b1bfe29d00f",
+              "port": "174f8f53-978a-44e7-ae97-b2169c2b1c1d"
+            },
+            "vertices": [
+              {
+                "x": -390,
+                "y": -350
+              },
+              {
+                "x": -360,
+                "y": -350
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "read no-fly zones, altitude limits",
+              "description": "Use policies for compliance checks",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "read no-fly zones, altitude limits"
+            ],
+            "id": "f800a9b2-e46b-4785-be7c-adf92f812945",
+            "source": {
+              "x": -530,
+              "y": -325
+            },
+            "target": {
+              "cell": "29fe22b8-fcd9-441c-9fe6-7a06e1938f39",
+              "port": "aa977ce1-b8b7-4869-919a-2401b8163352"
+            },
+            "vertices": [
+              {
+                "x": -340,
+                "y": 140
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Authorization decision (approve/reject)",
+              "description": "Exit point #1 — response to authority",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Authorization decision (approve/reject)"
+            ],
+            "id": "cb7a1ea0-ea10-4d27-aaad-6291ff041155",
+            "source": {
+              "x": -1027,
+              "y": -370
+            },
+            "target": {
+              "x": -680,
+              "y": -400
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Approval notification / token",
+              "description": "Exit point #2 — mission cleared or denied",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": false,
+              "isPublicNetwork": false,
+              "protocol": "",
+              "threats": []
+            },
+            "labels": [
+              "Approval notification / token"
+            ],
+            "id": "e16fbfd9-584f-4bfd-8220-525c274ee04a",
+            "source": {
+              "x": -1080,
+              "y": 70
+            },
+            "target": {
+              "x": -690,
+              "y": -370
+            },
+            "vertices": [
+              {
+                "x": -1000,
+                "y": -80
+              }
+            ]
+          }
+        ]
       }
     ],
     "diagramTop": 1,
