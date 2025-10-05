@@ -2,8 +2,8 @@
   "version": "2.5.0",
   "summary": {
     "title": "U-Space CONOPS DFD",
-    "owner": "",
-    "description": "",
+    "owner": "Fatima Majid",
+    "description": "Data Flow Diagram for U-Space Concept of Operations 4th Edition.\nModels the drone airspace management system including flight authorization,\nreal-time monitoring, geofencing, and coordination with air traffic control.\nIncludes trust boundaries and entry/exit points for threat analysis.",
     "id": 0
   },
   "detail": {
