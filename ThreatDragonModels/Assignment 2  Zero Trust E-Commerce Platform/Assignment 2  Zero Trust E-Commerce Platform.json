@@ -1,0 +1,26 @@
+{
+  "version": "2.5.0",
+  "summary": {
+    "title": "Assignment 2  Zero Trust E-Commerce Platform",
+    "owner": "Fatima Majid",
+    "description": "This threat model represents a Zero-Trust modernization of an e-commerce platform with three microservices: UserAuth, ProductCatalog, and OrderProcessing. The design applies centralized authentication, token-based authorization, and least-privilege service-to-service communication. A Gatekeeper (API Gateway) validates all tokens for both external clients and internal microservices. The model shows the login flow, token issuance, and secure service interactions.\n",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": " Q1 Zero Trust Access & Authentication Diagram",
+        "diagramType": "Generic",
+        "placeholder": "New generic diagram description",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "version": "2.5.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
