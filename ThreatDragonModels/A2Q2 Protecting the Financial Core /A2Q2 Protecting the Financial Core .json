@@ -1,0 +1,26 @@
+{
+  "version": "2.5.0",
+  "summary": {
+    "title": "A2Q2 Protecting the Financial Core ",
+    "owner": "Fatima Majid",
+    "description": "This system protects sensitive customer PII stored in the database using Application-Level Encryption (ALE) and centralized Key Management. The application encrypts sensitive fields before writing to the database, ensuring DBAs, cloud admins, or attackers with storage-level access only see ciphertext. A Key Management Service (KMS) securely stores and protects encryption keys using envelope encryption. The system also uses TLS to protect data-in-transit and Active-Active multi-region replication\n",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New generic diagram",
+        "diagramType": "Generic",
+        "placeholder": "New generic diagram description",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "version": "2.5.0",
+        "cells": []
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
